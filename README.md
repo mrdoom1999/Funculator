@@ -3,7 +3,7 @@
 A clean and responsive web-based calculator built with HTML, CSS, and JavaScript. This project is developed as part of a DevOps workflow assignment featuring version control, continuous integration (CI) via GitHub Actions, and automated deployment.
 
 ## 🚀 Live Demo
-[View Live Application](https://funculator-53lklvnya-azeem-khan-afridi.vercel.app/)
+[View Live Application](https://funculator.vercel.app/)
 ## ✨ Features
 * Basic arithmetic operations (Addition, Subtraction, Multiplication, Division)
 * Clean and intuitive calculator user interface
