@@ -1,0 +1,19 @@
+name: CI Workflow
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Verify project files exist
+        run: |
+          test -f index.html
+          test -f style.css
+          test -f script.js
+          echo "All core files exist successfully!"
