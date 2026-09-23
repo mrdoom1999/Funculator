@@ -13,7 +13,7 @@ jobs:
 
       - name: Verify project files exist
         run: |
-          test -f index.html
+          test -f Azeem.html
           test -f style.css
           test -f script.js
           echo "All core files exist successfully!"
