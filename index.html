@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Target Number Calculator Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Target Match Game</h1>
+        <p class="instructions">Click numbers to add them and match the target result!</p>
+        
+        <div class="scoreboard">
+            <div class="score-box">Target: <span id="target-number">24</span></div>
+            <div class="score-box">Current Sum: <span id="current-sum">0</span></div>
+        </div>
+
+        <div class="display-area">
+            <div id="expression" class="expression">0</div>
+        </div>
+
+        <div class="number-grid">
+            <button class="num-btn" onclick="addNumber(3)">3</button>
+            <button class="num-btn" onclick="addNumber(5)">5</button>
+            <button class="num-btn" onclick="addNumber(8)">8</button>
+            <button class="num-btn" onclick="addNumber(10)">10</button>
+        </div>
+
+        <div class="action-buttons">
+            <button class="action-btn reset-btn" onclick="resetGame()">Reset</button>
+            <button class="action-btn check-btn" onclick="checkResult()">Submit</button>
+        </div>
+
+        <div id="message" class="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #e0f2fe, #bae6fd); /* Soft Ice Blue */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.game-container {
+    background: #0284c7; /* Vibrant Ocean Blue */
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(3, 105, 161, 0.3);
+    width: 320px;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #f0f9ff;
+}
+
+.instructions {
+    font-size: 0.9rem;
+    color: #e0f2fe;
+    margin-bottom: 20px;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.score-box {
+    background: #0369a1; /* Deep Blue Accent */
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    flex: 1;
+    margin: 0 5px;
+}
+
+.display-area {
+    background: #f0f9ff; /* Lightest Blue Screen */
+    color: #0f172a;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.num-btn {
+    background: #38bdf8; /* Bright Sky Blue */
+    color: #0f172a;
+    border: none;
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.num-btn:hover {
+    background: #7dd3fc;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.action-btn {
+    flex: 1;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.reset-btn {
+    background: #02233f; /* Midnight Navy Blue */
+    color: white;
+}
+
+.check-btn {
+    background: #0ea5e9; /* Medium Azure Blue */
+    color: white;
+}
+
+.message {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1rem;
+    min-height: 24px;
+}
